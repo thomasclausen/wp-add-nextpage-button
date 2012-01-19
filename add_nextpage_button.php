@@ -28,12 +28,12 @@ function add_next_and_number( $args ) {
 		$prev = '';
 		$next = '';
 		if ( $multipage and $more ) {
-			$i = $page - 1;
+			$i = $page-1;
 			if ( $i and $more ) {
 				$prev .= _wp_link_page( $i );
 				$prev .= $args['link_before'] . $args['previouspagelink'] . $args['link_after'] . '</a>';
 			}
-			$i = $page + 1;
+			$i = $page+1;
 			if ( $i <= $numpages and $more ) {
 				$next .= _wp_link_page( $i );
 				$next .= $args['link_before'] . $args['nextpagelink'] . $args['link_after'] . '</a>';
