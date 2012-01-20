@@ -3,7 +3,7 @@
 Plugin Name: "Next page" button
 Description: Add "Next page" button to TinyMCE. REMEMBER to use the "wp_link_pages()" function to display the links.
 Version: 0.2
-License: GPLv2 or later
+License: GPLv2
 Author: Thomas Clausen
 Author URI: http://www.thomasclausen.dk/wordpress/
 */
