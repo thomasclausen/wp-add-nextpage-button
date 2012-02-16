@@ -10,6 +10,8 @@ Currently no examples...
 
 # Usage
 
+Download it, upload it and activate it!
+
 The code to insert looks like this:
 
     <?php $args = array( 'before' => '<p>Pages: ', 'after' => '</p>', 'next_or_number' => 'next_and_number', 'previouspagelink' => 'Previous', 'nextpagelink' => 'Next' );
